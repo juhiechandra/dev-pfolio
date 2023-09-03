@@ -14,11 +14,13 @@ const CentralBlock = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 10vh;
-  height: 50vh; /* Adjust to set the height of the central block to fill the viewport */
+  height: 100vh; /* Adjust to set the height of the central block to fill the viewport */
 `;
 
 const Content = styled.div`
-  width: 600px;
+  width: 50rem;
+  height: 37.5rem;
+  margin-left: 3rem;
 `;
 
 function App() {

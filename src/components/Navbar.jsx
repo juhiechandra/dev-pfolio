@@ -24,12 +24,13 @@ const SideBar = styled.div`
 
         font-family: "DotGothic16";
         font-weight: 500;
-        font-size: 22px;
+        font-size: 20px;
 
         text-decoration: none;
         transition: all 0.3s ease-in-out;
         &:hover {
-          background-color: #f2f2f2;
+          background-color: transparent; /* Remove background color */
+          border-bottom: 2px solid #f1b064; /* Add underline effect on hover */
         }
       }
     }
@@ -47,37 +48,56 @@ export default function Navbar() {
     <SideBar>
       <ul>
         <li>
-          <Link to="/"> Index </Link>
+          <Link to="/"> /Index </Link>
         </li>
         <li>
-          <Link to="/projects"> Builds </Link>
+          <Link to="/projects"> /Builds </Link>
         </li>
         <li>
-          <Link to="/blogs"> Blogs </Link>
+          <Link to="/creative-programming"> /Creative-Projects </Link>{" "}
         </li>
         <li>
-          <Link to="/writings"> Writings </Link>
+          <Link to="/blogs"> /Blogs </Link>
+        </li>
+        <li>
+          <Link to="/writings"> /Writings </Link>
         </li>
         <li>
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/juhiechandra"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            /GitHub
           </a>
         </li>
         <li>
           <a
-            href="https://twitter.com/yourtwitter"
+            href="https://twitter.com/cerulianJ"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            /Twitter
           </a>
         </li>
         <li>
-          <Link to="/creative-programming"> Creative Programming </Link>{" "}
+          <a
+            href="https://www.linkedin.com/in/juhiechandra-02/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            /LinkedIn
+          </a>
+        </li>
+        <li>
+          <Link
+            to="https://juhiescvandpf.framer.website/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Framer Site here{" "}
+          </Link>
         </li>
       </ul>
     </SideBar>
