@@ -4,16 +4,16 @@ import "@fontsource/space-mono";
 const blogStyle = {
   fontFamily: "Space Mono",
   color: "#EFEFEF",
-  marginBottom: "20px", // Add spacing between blogs
-  fontSize: "14px", // Font size for all blog sections
+  marginBottom: "20px",
+  fontSize: "14px",
 };
 
 const headingStyle = {
-  fontSize: "16px", // Font size for blog headings
+  fontSize: "16px",
 };
 
 const linkStyle = {
-  color: "#f1b064", // Link color is yellow
+  color: "#f1b064",
 };
 
 function Blogs() {

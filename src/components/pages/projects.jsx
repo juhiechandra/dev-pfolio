@@ -7,11 +7,11 @@ const projectStyle = {
   fontFamily: "Space Mono",
   color: "#EFEFEF",
 
-  fontSize: "18px", // Font size for all project sections
+  fontSize: "18px",
 };
 
 const linkStyle = {
-  color: "#f1b064", // Link color is yellow
+  color: "#f1b064",
 };
 
 function ProjectsPage() {

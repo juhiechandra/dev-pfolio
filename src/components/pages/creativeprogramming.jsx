@@ -5,16 +5,16 @@ import "@fontsource/space-mono";
 const projectStyle = {
   fontFamily: "Space Mono",
   color: "#EFEFEF",
-  marginBottom: "20px", // Add spacing between projects
-  fontSize: "1.25rem", // Font size for all project headings (18px)
+  marginBottom: "20px",
+  fontSize: "1.25rem",
 };
 
 const linkStyle = {
-  color: "#f1b064", // Link color is yellow
+  color: "#f1b064",
 };
 
 const descriptionStyle = {
-  fontSize: "1rem", // Font size for project descriptions (16px)
+  fontSize: "1rem",
 };
 
 function CreativeProgrammingPage() {
