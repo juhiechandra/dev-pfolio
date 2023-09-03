@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./Logo";
+
 import styled from "styled-components";
 import "@fontsource/dm-sans";
 import "@fontsource/dotgothic16";
