@@ -32,20 +32,6 @@ function ProjectsPage() {
 
       <div>
         <a
-          href="https://github.com/juhiechandra/AI-based-log-analyser"
-          target="_blank"
-          rel="noopener noreferrer"
-          style={linkStyle}
-        >
-          AI-Based-Log-Analyzer
-        </a>{" "}
-        used to monitor log structure / parse it to certain format then analyse
-        them / to automatically catch software incidents and show the root cause
-        of it.
-      </div>
-
-      <div>
-        <a
           href="https://github.com/mailforwork/medicwise-main"
           target="_blank"
           rel="noopener noreferrer"
